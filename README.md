@@ -1,43 +1,30 @@
-# Student Record Manager API
+##  How to Setup This Project Locally
 
-A simple backend REST API to manage student records using **Node.js**, **Express**, and **MongoDB**.
-
-## ⭐ Features
-
-- Create, Read, Update, and Delete student records
-- RESTful API design
-- Modular MVC folder structure
-- MongoDB integration with Mongoose
-- Error handling with middleware
-- Postman tested
-
-## 🛠️ Tech Stack
-
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- Postman
-- Git & GitHub
-
-## 📁 Folder Structure
+###  Step 1: Install Required Packages
+```bash
+npm install
 
 
+### Step 2: Setup Environment Variables
 
-student-api/
-├── controllers/
-│ └── studentController.js
-├── models/
-│ └── studentModel.js
-├── routes/
-│ └── studentRoutes.js
-├── middlewares/
-│ └── errorHandler.js
-├── config/
-│ └── db.js
-├── .env
-├── app.js
-├── package.json
-├── README.md
+.env
 
+### Step 3: Start the Server
 
+npm start
 
+##How to Push This Project to GitHub
+
+### Step 1: Initialize Git
+
+1. git init
+2. git add .
+3. git commit -m "Initial commit: Student CRUD API"
+
+### Step 2: Push to GitHub
+
+1. git branch -M main
+2. git remote add origin 
+https://github.com/IITPbharat/student-crud-api-node-mongo.git
+
+3. git push -u origin main
